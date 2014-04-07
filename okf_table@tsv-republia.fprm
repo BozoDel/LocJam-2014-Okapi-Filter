@@ -4,7 +4,7 @@ trimLeading.b=false
 trimTrailing.b=false
 preserveWS.b=true
 useCodeFinder.b=true
-codeFinderRules=#v1$0a$count.i=3$0a$rule0=\[GOV]$0a$rule1=\[G]$0a$rule2=\|$0a$sample=It is your job to increase their loyalty by editing The [GOV] Times carefully. $0a$ [G] $0a$Please help us. The government's tyranny must end! Place negative articles! ***|*** Your family will soon be safe! Drop the public's loyalty to -30 and get 1000 readers in 3 days! ***|*** It's working! Your efforts have strengthened us unimaginably! ***$0a$useAllRulesWhenTesting.b=false
+codeFinderRules=#v1$0a$count.i=3$0a$rule0=\[GOV]$0a$rule1=\[G]$0a$rule2=\|$0a$sample=It is your job to increase their loyalty by editing The [GOV] Times carefully. $0a$useAllRulesWhenTesting.b=false
 wrapMode.i=2
 columnNamesLineNum.i=1
 valuesStartLineNum.i=2
@@ -13,13 +13,13 @@ numColumns.i=3
 sendHeaderMode.i=0
 trimMode.i=1
 sendColumnsMode.i=1
-sourceIdColumns=
+sourceIdColumns=1
 sourceColumns=3
 targetColumns=
 commentColumns=
 commentSourceRefs=
 recordIdColumn.i=0
-sourceIdSourceRefs=
+sourceIdSourceRefs=3
 sourceIdSuffixes=
 targetLanguages=
 targetSourceRefs=
