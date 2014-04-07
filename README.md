@@ -22,4 +22,4 @@ Translate the package as you normally would, then generate the translated file. 
 
 # Limitations
 
-In the original .csv file, column A can provide useful tips about the functionality of the text in columns B and C. I tried to make it show in OmegaT (my CAT tool of choice) as a segment ID or comment/note, but it didn't work. You can always check the original file, but it would be nice to have it show in the CAT tool. I'm still trying to make it work, though.
+In the original .csv file, column A can provide useful tips about the functionality of the text in columns B and C. I tried to make it show in OmegaT (my CAT tool of choice) as a segment ID or comment/note, but it didn't work. You can always check the original file, but it would be nice to have it show in the CAT tool. ~~I'm still trying to make it work, though~~ It's actually a feature currently not implemented, [but it will probably be fixed](https://groups.yahoo.com/neo/groups/OmegaT/conversations/messages/32122).
