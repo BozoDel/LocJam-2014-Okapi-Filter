@@ -8,6 +8,8 @@ Do you want to participate in LocJam2014, but using your favorite CAT tool? Now 
 
 Besides allowing you to use all the functionality of a CAT tool of your choice, this filter also transforms things that shouldn't be translated (newlines, [GOV], [G] and |) into inline tags.
 
+UPDATE: It also shows the String ID somewhere depending on your CAT tool.
+
 
 # How to use it
 
@@ -22,4 +24,6 @@ Translate the package as you normally would, then generate the translated file. 
 
 # Limitations
 
-In the original .csv file, column A can provide useful tips about the functionality of the text in columns B and C. I tried to make it show in OmegaT (my CAT tool of choice) as a segment ID or comment/note, but it didn't work. You can always check the original file, but it would be nice to have it show in the CAT tool. ~~I'm still trying to make it work, though~~ It's actually a feature currently not implemented, [but it will probably be fixed](https://groups.yahoo.com/neo/groups/OmegaT/conversations/messages/32122).
+~~In the original .csv file, column A can provide useful tips about the functionality of the text in columns B and C. I tried to make it show in OmegaT (my CAT tool of choice) as a segment ID or comment/note, but it didn't work. You can always check the original file, but it would be nice to have it show in the CAT tool. I'm still trying to make it work, though. It's actually a feature currently not implemented, but it will probably be fixed.~~
+
+UPDATE: The String ID isn't shown in the Standard version of OmegaT, but in the Latest version it shows up under Comments, so I put it back in the filter. There's no side effect of using it with the Standard version. Let me know how it works with other CAT tools.
